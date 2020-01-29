@@ -3,6 +3,10 @@
   "description": "deploy gsnova to Heroku.",
   "keywords": ["gsnova"],
   "env": {
+    "PORT_TCP": {
+      "description": "设置 tcp 监听端口",
+      "value": "81"
+    },
     "VER": {
        "description": "设置 gsnova 版本",
        "value": "0.33.0"
